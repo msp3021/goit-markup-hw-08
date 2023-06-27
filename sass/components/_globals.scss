@@ -1,0 +1,61 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    background: $white;
+    color: $textcolor;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+
+
+img{
+   
+    max-width: 100%;
+    height: auto;
+}
+
+ul, ol{
+    list-style:none;
+    padding-left: 0;
+    margin:0;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+address{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    margin-left: 93px;
+
+}
+footer{
+    background: $bgfooter;
+    padding:60px 0;
+
+}
+.work{
+    padding-top: 0;
+}

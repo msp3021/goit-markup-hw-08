@@ -1,0 +1,39 @@
+.advantage-list{
+list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 94px;
+
+
+   &__icon{
+width: 270px;
+  height: 120px;
+  background-color: $offwhite;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+    }
+    &__title{
+        color: $textcolor;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 10px;
+
+    }
+    &__text{
+        color: $textinfo;
+
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        line-height: 1.7;
+        margin-top: 0;
+        margin-bottom: 0;   
+    }
+}

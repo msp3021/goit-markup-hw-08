@@ -1,0 +1,109 @@
+.buttons{
+    padding-bottom: 90px;
+
+    &__list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top:94px;}
+  
+    &__link{
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        background: $offwhite;
+        border-radius: 4px;
+        color: $textcolor;
+        border: $offwhite;
+        padding: 6px 25px;
+      }
+      &__link:hover,
+      &__link:focus{
+        background: $bluehighlight;
+  color: $white;
+  border-radius: 4px;
+  box-shadow: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+}
+
+.portfolio{
+    &__list{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: -40px;
+      } 
+      &__box{
+        background-color: $white;
+  border-color: #eeeeee;
+  margin: 0 auto;
+  height: 404px;
+  width: 370px;
+  margin-bottom: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: $cubicbezier;
+      }
+
+      &__box:hover,
+      &__box:focus {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+      cursor: pointer; 
+      }
+
+      &__description{
+      padding-left: 20px;
+}
+
+&__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: $white;
+    padding: 49px 45px 49px 24px; 
+}
+
+&__overlay{
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    background-color: $bluehighlight;
+    bottom: 0;
+    transform: translateY(100%);
+    transition-duration: 250ms;
+    transition-timing-function: $cubicbezier; 
+}
+&__title{
+    margin-top: 15px;
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+&__subtitle{
+    margin-top: 4px;
+  color: $textinfo;
+  font-size: 16px;
+  line-height: 1.8
+;
+  letter-spacing: 0.03em;
+}
+&__animation{
+    position: relative;
+  overflow: hidden;
+}
+&__wrapper:hover
+&__overlay{
+    transform: translateY(0); 
+}
+
+    }

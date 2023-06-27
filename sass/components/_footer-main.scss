@@ -1,0 +1,160 @@
+.footer-main{
+    background:$bgfooter;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 94px;
+    
+    &__blocks{
+        display: flex;
+        gap: 70px; 
+    }
+    
+.blocks{
+
+  
+
+&__title{
+        font-family: "Raleway", sans-serif;
+        font-size: 26px;
+        color:$white;
+        letter-spacing: 0.03em;
+        line-height: 1.2;
+        margin-top: 0;
+        margin-bottom: 0; 
+    }
+
+    &__logo{
+        color: $bluehighlight;
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Raleway", sans-serif; 
+    }
+
+    &__logo2{
+        color: $white;
+        font: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+      } 
+    
+      &__address{
+        color:$white;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 0;
+      }
+
+      &__info{
+        list-style: none;
+  margin-top: 9px;
+  margin-bottom: 0;
+  padding: 0;
+      }
+
+      &__contact{
+        color: $textinfo;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        line-height: 1.7;
+        transition-property: color;}
+
+        &__contact:hover{
+          color: $bluehighlight;
+          transition-duration: 250ms;
+          transition-timing-function: $cubicbezier;
+        }
+      }
+      .social{
+        color: $white;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        font-weight: 700;
+        text-align: left;
+     
+     &__list{
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        padding: 0;
+        margin-top: 20px; 
+     }
+     &__link{
+        width: 44px;
+        height: 44px;
+        cursor: pointer;
+        fill: $white;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-bottom: 12px;
+        padding: 12px;  
+        transition-property: background-color;
+     }
+     &__link:hover{
+        background-color: $bluehighlight;
+  transition-duration: 250ms;
+  transition-timing-function: $cubicbezier;
+  
+}
+      }
+.newsletter{
+  
+
+    &__title{
+display:flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 77px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:$white;
+    }
+
+
+    &__input{
+        box-sizing: border-box;
+        width: 358px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding-left: 16px;
+        filter: drop-shadow( $shadow);
+        border-radius: 4px;
+        background: $bgfooter; 
+    }
+    &__button{
+       
+        width: 200px;
+        height: 50px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8;
+        letter-spacing: 0.06em;
+        text-align: center;
+        margin-left: 12px;
+        color: $white;
+        background:$bluehighlight;
+        box-shadow: $shadow;
+        border-radius: 4px;
+        cursor: pointer;
+        justify-content: space-between;
+        align-items: center;
+      
+        border:0px solid transparent;
+       }  
+       &__send{
+        fill: $white;
+        margin-left: 24px;
+        vertical-align: middle;
+       }
+    }
+
+}
+    
+
+    

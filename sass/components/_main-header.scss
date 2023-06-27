@@ -1,0 +1,101 @@
+.header-main{
+   border-bottom: 1px solid #ececec;
+   
+&__wrapper{
+    display:flex;
+    align-items: center;
+   }
+
+&__logo{
+    color:$bluehighlight;
+    font-family:Raleway;
+    font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+&__logo--highlight{
+    color:#000000;
+}
+&__nav{
+    display:flex;
+    column-gap: 46px;
+    padding:31px 0;
+}
+&__link{
+    color: $textinfo;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    transition:color $cubicbezier;
+    &--current{
+        color: $bluehighlight;
+    }
+}
+
+&__link:hover,
+&__link:focus{
+    color: $bluehighlight;
+}
+&__underscore{
+    position: relative;
+    background: $bluehighlight;
+    top:28px;
+    border-radius: 2px;
+    &::after{
+        content:"";
+        display: block;
+        position: absolute;
+        width: 53px;
+        height: 4px;
+        background-color: $bluehighlight;
+    }
+}
+&__underscore--portfolio{
+    position: relative;
+    background: $bluehighlight;
+    top: 20px;
+    border-radius: 2px;
+    &::after{
+        content:"";
+        display: block;
+        position: absolute;
+        width: 58px;
+        height: 4px;
+        background-color: $bluehighlight;
+    }
+}
+&__contact{
+    display: flex;
+    margin-left: auto;
+    gap: 50px;
+}
+&__list{
+    width: 161px;
+    height: 16px;
+
+}
+&__item{
+    color: $textinfo;
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    transition: $cubicbezier;
+transition-property: color;
+}
+&__item:hover,
+&__item:focus{
+    color: $bluehighlight;
+}
+&__icon{
+    fill:currentColor;
+    margin-right: 10px;
+}
+&__list--tel{
+    height: 16px;
+}
+}
