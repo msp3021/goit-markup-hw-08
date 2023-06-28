@@ -81,12 +81,14 @@
    
 }
 &__mobile{
-    cursor:pointer;
+   cursor:pointer;
     background-color: transparent;
     border:none;
     justify-content: center;
  
-   
+   @include tablet{
+    display:none;
+   }
 }
 
 &__mobile-button{
