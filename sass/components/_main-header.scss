@@ -4,6 +4,7 @@
 &__wrapper{
     display:flex;
     align-items: center;
+    gap:160px;
    }
 
 &__logo{
@@ -17,7 +18,12 @@
 &__logo--highlight{
     color:#000000;
 }
+&__hidden{
+    display:none;
+}
 &__nav{
+  
+        
     display:flex;
     column-gap: 46px;
     padding:31px 0;
@@ -66,11 +72,39 @@
         background-color: $bluehighlight;
     }
 }
+&__info{
+    display:none;
+}
 &__contact{
     display: flex;
     margin-left: auto;
-    gap: 50px;
+   
 }
+&__mobile{
+    cursor:pointer;
+    background-color: transparent;
+    border:none;
+    justify-content: center;
+ 
+   
+}
+
+&__mobile-button{
+    transition-duration: 250ms;
+    transition-timing-function: $cubicbezier;
+    transition-property: fill;
+
+}
+    &__mobile-button:hover,
+   &__mobile-button:after{
+    fill: $bluehighlight;
+   }
+       
+   
+    
+
+
+
 &__list{
     width: 161px;
     height: 16px;
@@ -78,7 +112,7 @@
 }
 &__item{
     color: $textinfo;
-    font-size: 14px;
+    
     line-height: 1.1;
     font-weight: 500;
     letter-spacing: 0.02em;

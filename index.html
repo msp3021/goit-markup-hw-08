@@ -19,7 +19,22 @@
     <header class="header-main">
 <div class="header-main__wrapper container">
 <a href=".index.html" class="header-main__logo">Web<span class="header-main__logo--highlight" >Studio</span></a>
-<nav>
+
+<button
+type="button"
+class="header-main__mobile js-open-menu"
+aria-expanded="false"
+aria-controls="mobile-menu"
+>
+<svg class="header-main__mobile-button"
+  width="40"
+  height="40">
+  <use href="./images/icons.svg#icon-menu_40px"></use>
+
+
+</svg>
+</button>
+<nav class="header-main__hidden">
               <ul class="header-main__nav">
                 <li>
               <a class="header-main__link--current" href="#">Agencja</a>
@@ -33,6 +48,7 @@
             </li>
             </ul>
             </nav>
+            <div class="header-main__info">
 <ul class="header-main__contact">
 <li class="header-main__list">
   <a class="header-main__item" href="mailto:info@devstudio.com">
@@ -52,6 +68,7 @@
           </a>  
 </li>
 </ul>
+</div>
 </div>
       
       </header>
@@ -75,6 +92,7 @@
 
       <section>
         <div class="container">
+          <div class="advantage-list__hidden">
           <ul class="advantage-list">
             <li>
               <div class="advantage-list__icon">
@@ -128,6 +146,7 @@
               </p>
             </li>
           </ul>
+        </div>
         </div>
 
           <div class=" container about">

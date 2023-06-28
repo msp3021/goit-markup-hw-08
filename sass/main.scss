@@ -1,8 +1,10 @@
 @import "./utils/vars" ;
+@import"./utils/mixins";
+@import"./components/globals";
 @import "./components/main-header";
 @import "./components/menu";
 @import"./components/modal-form";
-@import"./components/globals";
+
 @import"./components/advantage-list";
 
 @import"./components/about";

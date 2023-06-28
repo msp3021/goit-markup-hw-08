@@ -41,15 +41,19 @@
         margin-left: 0;
         margin-top: -40px;
       } 
+
+
       &__box{
         background-color: $white;
-  border-color: #eeeeee;
+    border: solid 1px;
+  border-color:#eeeeee;
   margin: 0 auto;
   height: 404px;
   width: 370px;
   margin-bottom: 30px;
   transition-duration: 250ms;
   transition-timing-function: $cubicbezier;
+  transition-property: box-shadow;
       }
 
       &__box:hover,
@@ -81,6 +85,7 @@
     transform: translateY(100%);
     transition-duration: 250ms;
     transition-timing-function: $cubicbezier; 
+    transition-property: transform;
 }
 &__title{
     margin-top: 15px;

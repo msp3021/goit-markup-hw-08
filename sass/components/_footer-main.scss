@@ -1,4 +1,5 @@
 .footer-main{
+  display:none;
     background:$bgfooter;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -39,7 +40,7 @@
     
       &__address{
         color:$white;
-  font-size: 14px;
+  
   letter-spacing: 0.03em;
   font-style: normal;
   line-height: 1.2;
@@ -109,7 +110,7 @@ display:flex;
   margin-bottom: 20px;
   margin-right: 77px;
   font-weight: 700;
-  font-size: 14px;
+ 
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;

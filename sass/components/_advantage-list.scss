@@ -1,9 +1,15 @@
 .advantage-list{
-list-style: none;
+
+
+  list-style: none;
   display: flex;
   gap: 30px;
   justify-content: center;
   margin-top: 94px;
+
+  &__hidden{
+    display:none;
+  }
 
 
    &__icon{
@@ -30,7 +36,6 @@ width: 270px;
     &__text{
         color: $textinfo;
 
-        font-size: 14px;
         letter-spacing: 0.03em;
         line-height: 1.7;
         margin-top: 0;
