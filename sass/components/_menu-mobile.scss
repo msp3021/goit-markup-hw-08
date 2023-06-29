@@ -1,0 +1,42 @@
+.menu-container.is-open{
+   transform: translateX(0); 
+}
+
+
+.menu-mobile{
+    &__container{
+        background-color: $white;
+        position:fixed;
+        inset:0 ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 0;
+        transform: translateX(100%)
+      
+}
+&__close-button{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: transparent;
+    border: none;
+}
+&__contact{
+    display: flex;
+    flex-direction: column;
+
+}
+
+&__link{
+   
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 46.88px;
+   letter-spacing: 0.02em; 
+   color: $textcolor;
+   margin-left: 40px ;
+   
+
+}
+}
