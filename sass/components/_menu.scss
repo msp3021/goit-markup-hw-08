@@ -1,7 +1,6 @@
 .menu {
-  display:none;
-  
-   background: $bgfooter;
+
+  background: $bgfooter;
   text-align: center;
   padding: 200px 0;
    background-image: linear-gradient(
@@ -13,14 +12,17 @@
     &__text{
         color: $white;
   font-weight: 900;
-  font-size: 44px;
+  font-size: 26px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+margin-bottom: 30px;
 
-  
-  margin-bottom: 30px;
+@include desktop{
+  font-size: 44px;
+}
+
 
     }
 

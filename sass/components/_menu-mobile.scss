@@ -1,5 +1,6 @@
 .menu-container.is-open{
    transform: translateX(0); 
+
 }
 
 
@@ -12,7 +13,8 @@
         flex-direction: column;
         justify-content: space-between;
         padding-left: 0;
-        transform: translateX(100%)
+        transform: translateX(100%);
+        transition:transform 250ms ease;
       
 }
 &__close-button{

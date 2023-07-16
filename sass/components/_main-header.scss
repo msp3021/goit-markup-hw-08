@@ -1,6 +1,12 @@
 .header-main{
    border-bottom: 1px solid #ececec;
-   
+padding: 10px 0;
+   @include tablet {
+    padding:21px 0;
+   }
+   @include desktop {
+    padding: 24px 0;
+   }
 &__wrapper{
     display:flex;
     align-items: center;
@@ -20,6 +26,15 @@
 }
 &__hidden{
     display:none;
+
+    @include tablet{
+        display:flex;
+        margin-left: 83px;
+        margin-right: auto;
+    }
+    @include desktop{
+        margin-left: 93px;
+    }
 }
 &__nav{
   
@@ -72,14 +87,24 @@
         background-color: $bluehighlight;
     }
 }
-&__info{
-    display:none;
-}
 &__contact{
-    display: flex;
-    margin-left: auto;
-   
+    display:none;
+  
+
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    @include desktop {
+        flex-direction: row;
+     gap:30px;
+    }
 }
+
+
+
 &__mobile{
    cursor:pointer;
     background-color: transparent;
